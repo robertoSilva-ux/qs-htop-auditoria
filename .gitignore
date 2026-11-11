@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# artefatos de análise (não versionar)
+.scannerwork/
+coverage.xml
+*.gcda
+*.gcno
+*.gcov
+build-wrapper-dump.json
+
+.DS_Store

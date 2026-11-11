@@ -1,0 +1,15 @@
+CT-02 — htoprc com campo fora da faixa (BVA, limite superior + 1)
+binário: /home/roberto/.hermes/cache/scratch/qs-m2/htop/htop
+
+  configuração inválida : fields=0 999  → saída 0
+  configuração válida   : fields=0 48 49 ... → saída 0
+  marcadores na tela    : 15 de 15
+
+  [PASS] htop sobe com o valor inválido (não aborta)
+  [PASS] encerra normalmente com 'q' (código 0)
+  [PASS] não termina por sinal (sem crash/segfault)
+  [PASS] interface desenhada: medidores, tarefas, carga e barra de funções
+  [PASS] colunas em uso são as padrão (índice 999 ignorado)
+  [PASS] htoprc preservado (não corrompido na leitura)
+
+RESULTADO: PASSOU (6 de 6 checagens)
